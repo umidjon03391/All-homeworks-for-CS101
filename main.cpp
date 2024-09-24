@@ -99,19 +99,59 @@ int main() {
 //    cout << max;
 
 
-    //problem10
-    int max =0;
-    while (true){
-        int a;
-        cin >> a;
-        if (a==0){
-            break;
-        }
-        else if (a>max){
-            max=a;
-        }
-    }
-    cout << max;
+//    //problem10
+//    int total=0, positive=0, negative =0;
+//    float average;
+//    while (true) {
+//        int a;
+//        cin >> a;
+//        total += 1;
+//        average += a;
+//        if (a == 0) {
+//            break;
+//        } else if (a > 0) {
+//            positive += 1;
+//        } else {
+//            negative += 1;
+//        }
+//    }
+//    cout << "The number of positives is "<< positive << endl;
+//    cout << "The number of negatives is "<< negative << endl;
+//    cout << "The total is "<< total << endl;
+//    cout << "The average is "<< average/float((total)-1) << endl;
+//
+
+
+
+//    //problem11
+//    int a;
+//    cin>> a;
+//    for (int i =1; i<=a; i++){
+//        for (int j =1; j<=a; j++){
+//            cout <<"*";
+//        }
+//    cout << endl;
+//    }
+//
+//
+
+
+//    //problem12
+//    int a;
+//    cin >> a;
+//    for (int i = 1; i <= a; i++) {
+//        for (int j = 1; j <= i; j++) {
+//            cout<<"*";
+//        }
+//    cout << endl;
+//    }
+
+
+
+
+
+
+
 
 
     return 0;
