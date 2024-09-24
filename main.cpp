@@ -100,18 +100,18 @@ int main() {
 
 
     //problem10
-    //    int max =0;
-//    while (true){
-//        int a;
-//        cin >> a;
-//        if (a==0){
-//            break;
-//        }
-//        else if (a>max){
-//            max=a;
-//        }
-//    }
-//    cout << max;
+    int max =0;
+    while (true){
+        int a;
+        cin >> a;
+        if (a==0){
+            break;
+        }
+        else if (a>max){
+            max=a;
+        }
+    }
+    cout << max;
 
 
     return 0;
